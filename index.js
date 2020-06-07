@@ -65,6 +65,10 @@ app.post('/addProduct', (req, res) => {
     });
 })
 
+
+
+
+
 app.post('/membershipInformation', (req, res) => {
     const information = req.body;
     information.appointmentTime = new Date();
